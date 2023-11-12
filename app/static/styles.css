@@ -1,0 +1,19 @@
+.options,
+.submit {
+  margin: 1rem;
+  display: flex;
+}
+
+.options select {
+  margin-left: 1rem;
+}
+
+.options label {
+  width: 10rem;
+}
+
+#rank {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
