@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+    <head> 
+        <title> Nursery App </title> 
+        <link rel="stylesheet" href='/static/styles.css' />
+        <script src="/static/actions.js"></script>
+    </head>
+
+    <body>
+
+        <h1> Rank Nursery Applications </h1>
+
+        <h3> Please select following to rank given application </h3>
+
+        <div>
+            <form action="" id="loginForm">
+                <div class="options">
+                    <label for="parents">Parents: </label>
+                    <select name="parents" id="parents">
+                        <option value="usual">Usual</option>
+                        <option value="pretentious">Pretentious</option>
+                        <option value="great_pret">Great Pretentios</option>
+                    </select>
+                </div>
+
+                <div class="options">
+                    <label for="has_nurs">Nursery room: </label>
+                    <select name="has_nurs" id="has_nurs">
+                        <option value="proper">Proper</option>
+                        <option value="less_proper">Less Proper</option>
+                        <option value="improper">Improper</option>
+                        <option value="critical">Critical</option>
+                        <option value="very_crit">Very Critical</option>
+                    </select>
+                </div>
+
+                <div class="options">
+                    <label for="form">Family Form: </label>
+                    <select name="form" id="form">
+                        <option value="complete">Complete</option>
+                        <option value="completed">Completed</option>
+                        <option value="incomplete">Incomplete</option>
+                        <option value="foster">Foster</option>
+                    </select>
+                </div>
+
+                <div class="options">
+                    <label for="children">Childrens's In Family:</label>
+                    <select name="children" id="children">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="more">More</option>
+                    </select>
+                </div>
+
+                <div class="options">
+                    <label for="housing">Housing condition : </label>
+                    <select name="housing" id="housing">
+                        <option value="convenient">Convenient</option>
+                        <option value="less_conv">Less Convenient</option>
+                        <option value="critical">Critical</option>
+                    </select>
+                </div>
+
+                <div class="options">
+                    <label for="finance">Family Finance: </label>
+                    <select name="finance" id="finance">
+                        <option value="convenient">Convenient</option>
+                        <option value="inconv">Inconvenient</option>
+                    </select>
+                </div>
+
+                <div class="options">
+                    <label for="social">Family Social: </label>
+                    <select name="social" id="social">
+                        <option value="non-prob">Non Problematic</option>
+                        <option value="slightly_prob">Slightly Problematic</option>
+                        <option value="problematic">Problematic</option>
+                    </select>
+                </div>
+
+                <div class="options">
+                    <label for="health">Family Health: </label>
+                    <select name="health" id="health">
+                        <option value="recommended">Recommended</option>
+                        <option value="priority">Priority</option>
+                        <option value="not_recom">Not Recommended</option>
+                    </select>
+                </div>
+
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+
+        <div id="rank"></div>
+        
+    </body>
+
+</html>
